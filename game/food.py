@@ -1,6 +1,10 @@
-from game_object import *
+import pygame
+from pygame.locals import *
+import random
 
-foodimg = pygame.image.load("food.png")
+from game.game_object import *
+
+foodimg = pygame.image.load("images/food.png")
 
 class Food(game_object):
 

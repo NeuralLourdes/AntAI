@@ -2,8 +2,8 @@ import pygame
 from pygame.locals import *
 import random
 
-from Ant import *
-from Food import *
+from game.Ant import *
+from game.Food import *
 
 class ants:
 

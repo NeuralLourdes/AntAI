@@ -1,6 +1,10 @@
-from game_object import *
+import pygame
+from pygame.locals import *
+import random
 
-antimg = pygame.image.load("ant.png")
+from game.game_object import *
+
+antimg = pygame.image.load("images/ant.png")
 
 class Ant(game_object):
 
